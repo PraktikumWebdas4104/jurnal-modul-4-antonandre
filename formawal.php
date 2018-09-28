@@ -37,7 +37,7 @@ if (isset($_POST['kirim'])) {
 		</tr>
 		
 		<tr>
-			<td>Masukkan Foto<input type='file' name='foto' value='foto'></td>
+			<td>Masukkan Foto<input type='file[]' name='foto' value='foto'></td>
 		</tr>
 		
 		<tr>
