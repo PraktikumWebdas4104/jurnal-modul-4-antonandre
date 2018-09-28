@@ -52,4 +52,4 @@ if (isset($_POST['kirim'])) {
 		}
 	}
 	include 'proses.php';
-?>
+?> 
