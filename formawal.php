@@ -35,7 +35,11 @@ if (isset($_POST['kirim'])) {
 		<tr>
 			<td>TIDUR<input type='checkbox' name='hobi[]' value='tidur'></td>
 		</tr>
-
+		
+		<tr>
+			<td>Masukkan Foto<input type='file' name='foto' value='foto'></td>
+		</tr>
+		
 		<tr>
 			<td><input type='submit' name='submit' value='Save'></td>
 		</tr>
